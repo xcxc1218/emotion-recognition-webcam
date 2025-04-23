@@ -40,9 +40,3 @@ python emotion_recognition_one_click.py
 打开摄像头窗口，检测到的人脸会被框住并显示情绪标签。
 
 按 Esc 键退出。
-
-文件结构
-.
-├── downloads/
-│   └── emotion_model.h5
-└── emotion_recognition_one_click.py
