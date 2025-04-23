@@ -30,10 +30,6 @@ pip install opencv-python tensorflow numpy
 mkdir downloads
 下载预训练模型并重命名为 emotion_model.h5 放入 downloads/：
 
-curl -L \
-  https://raw.githubusercontent.com/oarriaga/face_classification/master/trained_models/emotion_models/fer2013_mini_XCEPTION.102-0.66.hdf5 \
-  -o downloads/emotion_model.h5
-
 运行
 
 python emotion_recognition_one_click.py
